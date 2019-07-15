@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_center</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02a.-scan" transform="translate(-898.000000, -311.000000)" fill="#000000">
+            <g id="how-to" transform="translate(256.000000, 308.000000)">
+                <g id="icon_center" transform="translate(642.000000, 3.000000)">
+                    <path d="M38.5,0 L27.5,0 L27.5,2.75 L38.5,2.75 C40.018,2.75 41.25,3.982 41.25,5.5 L41.25,16.5 L44,16.5 L44,5.5 C44,2.462625 41.537375,0 38.5,0 L38.5,0 Z M41.25,38.5 C41.25,40.018 40.018,41.25 38.5,41.25 L27.5,41.25 L27.5,44 L38.5,44 C41.537375,44 44,41.537375 44,38.5 L44,27.5 L41.25,27.5 L41.25,38.5 L41.25,38.5 Z M2.75,38.5 L2.75,27.5 L0,27.5 L0,38.5 C0,41.537375 2.462625,44 5.5,44 L16.5,44 L16.5,41.25 L5.5,41.25 C3.982,41.25 2.75,40.018 2.75,38.5 L2.75,38.5 Z M0,5.5 L0,16.5 L2.75,16.5 L2.75,5.5 C2.75,3.982 3.982,2.75 5.5,2.75 L16.5,2.75 L16.5,0 L5.5,0 C2.462625,0 0,2.462625 0,5.5 L0,5.5 Z" id="Fill-64"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

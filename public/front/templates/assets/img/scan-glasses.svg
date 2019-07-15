@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="47px" viewBox="0 0 49 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_glasses</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.4856758,30 L28.5143242,30 C26.9436353,28.0981189 26,25.6592584 26,23 C26,16.9248678 30.9248678,12 37,12 C43.0751322,12 48,16.9248678 48,23 C48,29.0751322 43.0751322,34 37,34 L11,34 C4.92486775,34 0,29.0751322 0,23 C0,16.9248678 4.92486775,12 11,12 C17.0751322,12 22,16.9248678 22,23 C22,25.6592584 21.0563647,28.0981189 19.4856758,30 Z M11,30 C14.8659932,30 18,26.8659932 18,23 C18,19.1340068 14.8659932,16 11,16 C7.13400675,16 4,19.1340068 4,23 C4,26.8659932 7.13400675,30 11,30 Z M37,30 C40.8659932,30 44,26.8659932 44,23 C44,19.1340068 40.8659932,16 37,16 C33.1340068,16 30,19.1340068 30,23 C30,26.8659932 33.1340068,30 37,30 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02a.-scan" transform="translate(-256.000000, -307.000000)">
+            <g id="how-to" transform="translate(256.000000, 308.000000)">
+                <g id="icon_glasses" transform="translate(0.000000, 1.000000)">
+                    <g id="voicemail" transform="translate(24.000000, 24.000000) rotate(-180.000000) translate(-24.000000, -24.000000) ">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="COLOR/-black" mask="url(#mask-2)" fill="#000000" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="48" height="48"></rect>
+                        </g>
+                    </g>
+                    <path d="M4.5,3.5 L43,42" id="Line" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M5.45304522,0.703045225 L46.75,42" id="Line" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

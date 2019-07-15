@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="alternate" href="#" hreflang="en-en" />
+  	<link rel="alternate" href="#" hreflang="id-id" />
+  	<title>Ultima II Skin Check</title>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="assets/js/i18n/datepicker.en.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+	<!-- NAVIGATION BAR -->
+    <nav class="nav-container">
+        <div class="container">
+            <div class="left col-md-6 col-xs-8">
+                <a href="#">
+                    <div class="logo"></div>
+                    <h1 class="logo-text">Skin Check</h1>
+                </a>
+            </div>
+            <div class="right col-lg-3 col-md-4 col-xs-2 pull-right">
+                <div class="desktop-menu">
+                    <!-- SIGN IN / SIGN UP -->
+                    <!-- <div class="menu">
+                        <a href="#">SIGN IN / SIGN UP</a>
+                    </div> -->
+                    <!-- WELCOME, USER -->
+                    <div class="menu">
+                        Welcome, <a href="#" class="user-account"> <span class="bold">Tiva</span></a>
+                    </div>
+                    <div class="menu lang-menu">
+                        <a class="active">EN</a> | <a href="#">IN</a>
+                    </div>
+                </div>
+
+                <!-- MOBILE MENU -->
+                <div class="mobile-menu">
+                    <!-- GO TO "SIGN IN/SIGN UP" OR "MY PROFILE" MENU -->
+                    <div class="menu" id="account-menu">
+                        <a href="#"></a>
+                    </div>
+                    
+                    <div class="menu">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#lang-modal" id="lang-btn"></button>
+                    </div>
+
+                </div>
+                <!-- MOBILE MENU END-->
+            </div>
+        </div>
+    </nav>
+  	<div class="content-container align-center add-padding">
+            <section class="form-register container single-page">
+                <h1>REGISTER ACCOUNT</h1>
+                <div class="col-md-12 registerforms add-padding">
+                    <form action="#">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <div class="col-md-12 row1">
+                                    <input class="form-control form-control-fullname" type="text" placeholder="" id="fullname" required>
+                                    <label class="form-control-placeholder" for="name">Fullname</label>    
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-6 col-sm-12 row1">
+                                    <input type="date" class="form-birthdate form-control datepicker-here" placeholder="Date of birth" data-language='en' data-position="right top" id="date" required />
+                                    <label class="form-control-placeholder" for="date">Date of birth</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-6 col-sm-12 row1 select-wrap">
+                                    <select class="form-control form-select-gender" id="selectGender" required >
+                                        <option></option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                    </select>
+                                    <label class="form-control-placeholder" for="selectGender">Gender</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-6 col-sm-12 row1 select-wrap">
+                                    <select class="form-control form-select-country" id="selectCountry" required >
+                                        <option></option>
+                                        <option value="indonesia">Indonesia</option>
+                                    </select>
+                                     <label class="form-control-placeholder" for="selectCountry">Country</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-6 col-sm-12 row1 select-wrap">
+                                    <select class="form-control form-select-city" id="selectCity" required >
+                                        <option></option>
+                                        <option value="indonesia">Jakarta</option>
+                                    </select>
+                                    <label class="form-control-placeholder" for="selectCity">City</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-6 col-sm-12 row1">
+                                    <input type="number" class="form-control form-control-phonenumber" id="phoneNumber" placeholder="Phone Number" required >
+                                    <label class="form-control-placeholder" for="phoneNumber">Phone Number</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-6 col-sm-12 row1">
+                                    <input type="email" class="form-control form-control-email" id="email" placeholder="Email address"required>
+                                    <label class="form-control-placeholder" for="email">Email Address</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-6 col-sm-12 row1">
+                                    <input type="password" class="form-control form-control-password" id="password" placeholder="Password" required>
+                                    <label class="form-control-placeholder" for="password">Password</label>
+                                </div>
+                            <div class="form-group">
+                                <div class="col-md-6 col-sm-12 row1">						
+                                    <input type="password" class="form-control form-control-confirmPass" id="confirmPassword" placeholder="Confirm Password" required>
+                                    <label  class="form-control-placeholder" for="confirmPassword">Confirm Password</label> 
+                                </div>
+                            </div>
+                            <div class="col-md-12 ">
+                                <button type="submit" class="button btnSubmit">REGISTER</button>
+                            </div>
+                            <div class="col-md-12 alreadyMember">
+                                <p>Already a member? <a href="#" class="underlined">Login Now</a></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+  	</div>
+  	<footer>
+  		Copyright &copy; 2019 ULTIMA II
+	</footer>
+  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
